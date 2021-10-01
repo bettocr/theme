@@ -8,7 +8,7 @@ $("#menuClose").click(function () {
 });
 
 //Change Launch time
-var launchTime = "2020/12/10";
+var launchTime = "2022/2/23";
 
 $("#days").countdown(launchTime, function (event) {
   $(this).text(event.strftime("%D"));
